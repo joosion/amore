@@ -1,0 +1,13 @@
+*{margin: 0; padding: 0; text-decoration: none; list-style: none; color: inherit;}
+header{background-color: #132822; height: 147px;}
+header .header_wrap{width: 1200px; margin: 0 auto; text-align: center; position: relative; color: #8e9996;}
+/* header_wrap */
+header .header_wrap .logo{padding-top: 35px;}
+/* header logo */
+header .header_wrap .nav{position: absolute; display: flex; position: absolute; right: 0; top: 50px; font-size: 12px;}
+header .header_wrap .nav li:not(:nth-child(3)){border-right: 1px solid #8e9996; padding-right: 5px; margin-right: 5px;}
+header .header_wrap .nav form{ border-bottom: 1px solid #8e9996; position: relative;}
+header .header_wrap .nav form input{ background-color: unset; border: unset;}
+header .header_wrap .nav form input:focus{outline: unset;}
+header .header_wrap .nav form button{background-color: unset; border: unset; position: absolute; right: 0;}
+/* header nav */
