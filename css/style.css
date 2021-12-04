@@ -11,3 +11,16 @@ header .header_wrap .nav form input{ background-color: unset; border: unset;}
 header .header_wrap .nav form input:focus{outline: unset;}
 header .header_wrap .nav form button{background-color: unset; border: unset; position: absolute; right: 0;}
 /* header nav */
+header .header_wrap .gnb{display: flex; font-size: 13px;text-align: center; margin: 0 auto; justify-content: space-between; margin-top: 35px;}
+header .header_wrap .gnb li{position: relative;} 
+header .header_wrap .gnb .sub{display:none; margin-top: 30px; position: absolute; left: 50%; justify-content: space-between;}
+header .header_wrap .gnb li:nth-child(1) .sub{width: 160px; margin-left: -80px;}
+header .header_wrap .gnb li:nth-child(2) .sub{width: 460px; margin-left: -230px;}
+header .header_wrap .gnb li:nth-child(3) .sub{width: 290px; margin-left: -145px;}
+header .header_wrap .gnb li:nth-child(4) .sub{width: 140px; margin-left: -70px;}
+header .header_wrap .gnb .sub li:not(:last-child){margin-right: 30px;}
+header .header_wrap .gnb li a:not(.not){padding: 10px; position: relative;}
+header .header_wrap .gnb li a:not(.not):before{content: ''; display: block; width: 0px; height: 2px; background-color: #8e9996; position: absolute; bottom: 0; left: 0;}
+header .header_wrap .gnb li a:hover::before{transition: all 1.2s; width: 100%;}
+header .header_wrap .gnb li:hover .sub{display: flex;}
+/* header gnb */
