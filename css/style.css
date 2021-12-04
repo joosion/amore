@@ -30,3 +30,5 @@ header .header_wrap .gnb li:hover .sub{display: flex;}
 .banner .banner_txt a span{position: absolute; left: 0; top: 0; height: 26px; width: 0; overflow: hidden; transition: all 1.2s linear; line-height: unset;}
 .banner .banner_txt a b{ display: block; font-weight: normal; width: 108px; height: 18px; padding: 4px 0; background-color: #fff; color: #000; line-height: unset;}
 .banner .banner_txt a:hover span{width: 100%;}
+/* banner */
+.content{width: 1200px; margin: 0 auto; text-align: center;}
